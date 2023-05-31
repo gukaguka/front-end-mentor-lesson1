@@ -1,0 +1,113 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+.column-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    position: relative;
+
+}
+
+.column-item{
+    width: 307px; 
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container > :first-child{
+    background-color: #E28625;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.container > :nth-child(2){
+    background-color: #006971;
+}
+.container > :last-child{
+    background-color: #004140;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.column-icon{
+    padding-top: 48px;
+    padding-left: 48px;
+}
+h2{
+    margin-top: 35px;
+    flex-grow: 1;
+    color: #F2F2F2;
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 48px;
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+p{ margin-top: 025px;
+    color:#FFFFFF;
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.75;
+    padding-left: 47.5px;
+    padding-right: 47.5px;
+
+}
+.button-container{
+    position:absolute;
+    bottom: 0px;
+}
+button{
+    font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+margin-bottom: 48px;
+margin-left: 48px;
+background-color: #F2F2F2;
+
+border: none;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+width:146px;
+height: 48px;
+border-radius: 40px;
+}
+button:hover{
+    border: 2px solid #F2F2F2;
+    color: #F2F2F2 !important;
+    background-color: transparent;
+}
+
+.container:first-child button{
+    color: #E28625;
+}
+
+.container > :nth-child(2) button{
+    color: #006971;
+}
+
+.container > :last-child button{
+    color: #004140;
+}
+
+.icon-container{
+    margin-bottom: 0;
+}
+
+.text-container{
+    margin-top: 0;
+}
